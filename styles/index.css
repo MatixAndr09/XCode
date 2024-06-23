@@ -1,0 +1,125 @@
+body {
+    background-color: #070606;
+    color: white;
+}
+
+.logo-header {
+    width: 40px;
+    height: 40px;
+}
+
+header>.header-menu {
+    display: flex;
+    align-items: center;
+}
+
+header>.header-menu>span {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1vw;
+    font-weight: 500;
+    margin-left: 1vw;
+}
+
+.search-bar {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    font-weight: 500;
+    font-size: .8vw;
+    color: #fff;
+    background-color: rgb(28, 28, 30);
+    box-shadow: 0 0 .4vw rgba(0, 0, 0, 0.5), 0 0 0 .15vw transparent;
+    border-radius: 0.4vw;
+    border: none;
+    outline: none;
+    padding: 0.4vw;
+    width: 400px;
+    transition: .4s;
+    margin-left: 200px;
+}
+
+.search-bar:hover {
+    box-shadow: 0 0 0 .15vw rgba(135, 207, 235, 0.186);
+}
+
+.search-bar:focus {
+    box-shadow: 0 0 0 .15vw white;
+}
+
+.sidebar {
+    border-radius: 10px;
+    margin-top: 50px;
+    background-color: #252526;
+    width: 60px;
+    height: 90%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-y: auto;
+    padding-top: 20px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar li {
+    text-align: center;
+    padding: 15px 0;
+}
+
+.sidebar .material-icons {
+    color: #ffffff;
+    font-size: 24px;
+}
+.down-area{
+    margin-top: 650px;
+}
+
+.file-structure{
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    margin-top: 2px;
+    padding-top: 40px;
+    margin-left: 60px;
+    color: white;
+    background-color: #252526;
+    width: 210px;
+    height: 830px;
+}
+
+.file-structure ul {
+    list-style: none;
+}
+
+.code-area{
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-top: 70px;
+    margin-left: 300px;
+    width: 1500px;
+    height: 850px;
+    background-color: #1e1e1e;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-code{
+    height: 95%;
+    width: 95%;
+    background-color: #272727;
+    border: none;
+    border-radius: 5px;
+    color: gainsboro;
+    font-size: large;
+    padding: 10px;
+}
+
+.input-code:focus {
+    border: none;
+    outline: none;
+}

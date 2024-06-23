@@ -4,10 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/index.css">
-    <title>XCode</title>
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>XCode - Main Menu</title>
 </head>
 <body>
-    <h1>Hi :)</h1>
+    <header>
+        <div class="header-menu">
+            <img src="images/logo.png" alt="xcode icon" class="logo-header">
+            <span>File</span>
+            <span>Edit</span>
+            <span>Selection</span>
+            <span>View</span>
+            <span>Go</span>
+            <span>Run</span>
+            <span>Terminal</span>
+            <span>Help</span>
+            <input type="text" name="text" class="search-bar" placeholder="Command Pallete">
+        </div>
+    </header>
+    <div class="sidebar">
+        <ul>
+            <li><span class="material-icons">content_copy</span></li>
+            <li><span class="material-icons down-area">account_circle</span></li>
+            <li><span class="material-icons">settings</span></li>
+        </ul>
+    </div>
+    <div class="file-structure">
+        <div class="file-structure-header">
+            <span class="material-icons"></span>
+            <span>Project</span>
+        </div>
+        <div class="file-structure-body">
+            <ul>
+                <li><span class="material-icons"></span>src</li>
+                <li><span class="material-icons"></span>public</li>
+                <li><span class="material-icons"></span>node_modules</li>
+                <li><span class="material-icons"></span>package.json</li>
+                <li><span class="material-icons"></span>tsconfig.json</li>
+                <li><span class="material-icons"></span>package-lock.json</li>
+                <li><span class="material-icons"></span>README.md</li>
+            </ul>
+        </div>
+    </div>
+    <div class="code-area">
+        <textarea class="input-code"></textarea>
+    </div>
+    <div class="scrollbar" id="style-1">
+        <div class="force-overflow"></div>
+    </div>
     <script src="ts/index.ts"></script>
 </body>
-</html>
+</html> 
